@@ -1,0 +1,137 @@
+html body{
+     /*que la pag ocupe toda la ventana y no haya bordes/* */
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
+
+
+header, footer{
+    background-color: rgba(0, 128, 0, 0.349);
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.20);
+    padding: 1rem;
+}
+
+
+
+
+
+header span {
+    font-weight: bold;
+}
+
+
+
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+
+
+
+h2{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+
+
+img{
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.tarjeta{
+    
+    
+    box-shadow: 0px 0px 3px 3px rgb(0, 0, 0.20);  
+    /* le da una sombra al elemento (horizontal) (vertical) (desenfoque) (extension) */
+
+    display: flex; 
+    /* define como se muestra el elemento en el diseño */
+
+    flex-direction: column; 
+    /* direccion de elementos hijos */
+
+    align-items: center; 
+    /* alinea elementos */
+
+    justify-content: space-between; 
+    /* da espacio entre medio de elementos */
+
+    margin: 0 20px;
+    /* define espacio exterior alrededor del elemento */
+    margin-bottom: 10px;
+    /* Define el espacio exterior en la parte inferior del elemento. */
+    margin-top: 10px;
+
+    flex-basis: 300px; 
+    /* Establece el tamaño inicial del elemento antes de distribuir el espacio disponible */
+
+    flex-grow: 1; 
+    /* Permite que el elemento flex crezca para ocupar el espacio adicional disponible. */
+
+   
+    transition: 200ms;
+
+    
+
+}
+
+
+
+.tarjeta p {
+    background-color: rgba(0, 128, 0, 0.349);
+    padding: 20px;
+    margin: 0%;
+}
+
+#contenedor-tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:0px ;
+    
+}
+
+
+
+#Turismo{
+margin-right: 20px;
+}
+                               
+#FyF {
+margin-left: 20px;
+}
+
+
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+   
+   
+}
+
+
+
+
+main {
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    margin-top: auto;
+}
