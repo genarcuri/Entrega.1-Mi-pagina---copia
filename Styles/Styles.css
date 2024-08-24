@@ -1,5 +1,5 @@
 html body{
-     /*que la pag ocupe toda la ventana y no haya bordes/* */
+    
     margin: 0px;
     display: flex;
     flex-direction: column;
@@ -49,6 +49,7 @@ img{
     max-height: 300px;
 }
 
+
 .tarjeta{
     
     
@@ -67,11 +68,8 @@ img{
     justify-content: space-between; 
     /* da espacio entre medio de elementos */
 
-    margin: 0 20px;
+    margin: 10px 20px 10px 20px;
     /* define espacio exterior alrededor del elemento */
-    margin-bottom: 10px;
-    /* Define el espacio exterior en la parte inferior del elemento. */
-    margin-top: 10px;
 
     flex-basis: 300px; 
     /* Establece el tamaño inicial del elemento antes de distribuir el espacio disponible */
@@ -79,7 +77,7 @@ img{
     flex-grow: 1; 
     /* Permite que el elemento flex crezca para ocupar el espacio adicional disponible. */
 
-   
+
     transition: 200ms;
 
     
@@ -107,7 +105,8 @@ img{
 #Turismo{
 margin-right: 20px;
 }
-                               
+
+
 #FyF {
 margin-left: 20px;
 }
@@ -120,16 +119,19 @@ body{
     margin: 0;
     height: 100vh;
     color: rgb(0, 0, 0);
-   
-   
+
+
 }
 
-
+button { 
+    margin: 10px 20px 10px 20px;
+}
 
 
 main {
     justify-content: center;
     align-items: center;
+    min-height: auto;
 }
 
 footer{
