@@ -32,6 +32,7 @@ h1{
     font-size: 4rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    font-weight: bold;
 }
 
 
@@ -39,6 +40,7 @@ h2{
     font-size: 2rem;
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
+    font-weight: bold;
 }
 
 
@@ -46,6 +48,7 @@ h3{
     font-size: 2rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
+    font-weight: bold;
 }
 
 h4{
@@ -56,7 +59,9 @@ h4{
 
 }
 
-
+p{
+    font-weight: bold;
+}
 
 img{
     width: 300px;
@@ -81,9 +86,6 @@ img{
 
     justify-content: space-between; 
     /* da espacio entre medio de elementos */
-
-    margin: 10px 20px 10px 20px;
-    /* define espacio exterior alrededor del elemento */
 
     flex-basis: 300px; 
     /* Establece el tamaño inicial del elemento antes de distribuir el espacio disponible */
@@ -119,7 +121,14 @@ body{
 }
 
 button { 
-    margin: 10px 20px 10px 20px;
+    margin: 25px 130px 25px 130px; /*distancia entre botones*/
+    cursor: pointer;
+    
+}
+
+button:hover{
+        background-color: rgba(0, 128, 0, 0.363); /* Color de fondo al pasar el cursor */
+        transform: scale(1.1); /* Aumentar ligeramente el tamaño del botón */
 }
 
 
@@ -137,7 +146,7 @@ main {
 }
 
 ul{
-    background-color: rgba(0, 128, 0, 0.185);
+    background-color: rgba(0, 128, 0, 0.363);
     padding: 20px;
     margin-bottom: 1rem;
 
@@ -150,7 +159,7 @@ li{
 }
 
 #Sect.final{
-    margin-top: 2rem;
+    margin-top: 60px;
     padding: 2rem;
 }
 
