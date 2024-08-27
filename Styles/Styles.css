@@ -160,7 +160,7 @@ ul{
 
 
 .DatosC{
-color: rgb(56, 204, 81);
+color: rgba(235, 229, 229, 0.877);
 
 }
 
@@ -191,4 +191,8 @@ size: 400px;
     max-width: 700px;
     margin: 0 auto;
     
+}
+
+.trans{
+    color: transparent;
 }
