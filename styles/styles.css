@@ -145,7 +145,7 @@ main {
     align-items: center;
     min-height: auto;
     height: 100vh;
-    background-image: url(hda.jpg);                            
+    background-image: url(hda.jpg);                           
     background-repeat: no-repeat; /* Previene que la imagen se repita */
     background-size: cover; /* Ajusta la imagen para cubrir el área disponible */
     background-position: center; /* Centra la imagen en el área visible */
